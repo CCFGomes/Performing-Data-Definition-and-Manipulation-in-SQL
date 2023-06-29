@@ -193,7 +193,7 @@ WHERE company_id = 3;
 --Retrieve data from companies table
 SELECT * FROM companies;
 
-
+--Delete all records from the companies table
 DELETE FROM companies;
 
 
