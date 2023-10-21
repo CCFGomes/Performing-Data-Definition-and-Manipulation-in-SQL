@@ -8,8 +8,7 @@
 
 
 #############################
--- Task Two: Data Definition
--- In this task, you will learn how to create database objects (tables) in the database you created in task 1.
+-- Data Definition
 #############################
 
 -- Creating the sales table
@@ -39,8 +38,7 @@ company_name VARCHAR(255) NOT NULL
 );
 
 #############################
--- Task Three: Data Manipulation
--- By the end of Task 3, you will be able to insert records into the tables created.
+-- Data Manipulation
 #############################
 
 -- Insert five (5) records into the sales table
@@ -80,9 +78,7 @@ VALUES ('A11', 'Flask', 12.50, 1, 'Company A'),
 SELECT * FROM items;
 
 #############################
--- Task Four: Data Manipulation - Part 2
--- By the end of Task 4, you will be able to upload a csv file into your database 
--- and insert records into duplicate tables. 
+-- Data Manipulation - Part 2
 #############################
 
 -- Create the companies table and upload the CSV file into the table
@@ -127,8 +123,7 @@ SELECT * FROM customers;
 SELECT * FROM customers_dup;
 
 #############################
--- Task Five: Data Definition and Manipulation
--- By the end of this task, you will be able to ALTER, RENAME and UPDATE data in tables in a database.
+-- Data Definition and Manipulation
 #############################
 
 -- Add a new column gender after the last_name field
@@ -168,9 +163,7 @@ SET first_name = 'Israel'
 WHERE customer_id = 6;
 
 #############################
--- Task Six: Drop Vs. Truncate Vs. Delete
--- By the end of task 6, you will learn how to use SQL drop, truncate and delete statements. 
--- In addition, you will understand the difference between SQL drop, truncate and delete statements.
+-- Drop Vs. Truncate Vs. Delete
 #############################
 
 -- DROP the customers_dup table
